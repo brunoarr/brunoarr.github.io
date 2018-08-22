@@ -2,14 +2,12 @@ function viewMore(i) {
     var x = document.getElementsByClassName("viewmore")[i];
     var y = document.getElementsByClassName("viewmore-button")[i];
 
-    if (x.style.display === "none") {
-        x.style.display = "block";
-        // x.style.opacity = 100;
-        // x.style.transition = 'opacity 1s ease-out';
-        y.innerHTML="View less -";
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      y.innerHTML="View more +";
     } else {
-        x.style.display = "none";
-        y.innerHTML="View more +";
+      x.style.display = "block";
+      y.innerHTML="View less -";
     }
 };
 
