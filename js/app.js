@@ -6,10 +6,10 @@ function viewMore(i) {
         x.style.display = "block";
         // x.style.opacity = 100;
         // x.style.transition = 'opacity 1s ease-out';
-        y.innerHTML="View less ⮝";
+        y.innerHTML="View less 	&#11167;";
     } else {
         x.style.display = "none";
-        y.innerHTML="View more ⮟";
+        y.innerHTML="View more 	&#11167;";
     }
 };
 
