@@ -280,6 +280,10 @@ li {
 		background-image: url("../images/background.png");
 	}
 
+	footer {
+	padding: 30px 5% 10px 5%;
+	}
+
 	h1 {
 		padding-top: 80px;
 		text-align: left;
