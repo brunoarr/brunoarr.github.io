@@ -140,7 +140,7 @@ li {
 	background-image: url("../images/background-mobile.png");
 	background-repeat: no-repeat;
 	background-position: bottom;
-	min-height: 650px;
+	min-height: 610px;
 }
 
 .intro {
@@ -319,7 +319,7 @@ li {
     width: 50%;
 		margin: auto;
 		padding-right: 2%;
-		min-height: 450px;
+		min-height: 550px;
   }
 
   #contact p{
@@ -379,7 +379,7 @@ li {
 		float: left;
 		width: 33%;
 		margin: auto;
-		min-height: 450px;
+		min-height: 550px;
 		padding-right: 1.5%;
 		padding-left: 3%
 	}
